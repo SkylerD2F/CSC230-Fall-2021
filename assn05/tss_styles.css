@@ -32,9 +32,9 @@ html {
 
 
 /* Heading Styles */
-h1, h2 { 
-    font-family: Quicksand, Verdana, geneva, sans-serif;
-}
+h1, h2 {
+    font-family: Quicksand, Verdana, Geneva, sans-serif;
+    }
 article#about_tss h1 {
     color: white;
     background-color: rgb(222, 128, 60);
