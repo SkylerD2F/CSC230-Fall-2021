@@ -32,8 +32,15 @@ html {
 
 
 /* Heading Styles */
+h1 {
+    font-size: 2.2em;
+    }
+    h2 {
+    font-size: 1.5em;
+    }
 h1, h2 {
     font-family: Quicksand, Verdana, Geneva, sans-serif;
+    letter-spacing: 0.1em;
     }
 article#about_tss h1 {
     color: white;
@@ -53,6 +60,9 @@ article#about_tss h1 {
 
 
 /* Aside and Blockquote Styles */
+aside {
+    font-size: 0.8em;
+}
 aside blockquote {
     color: rgb(232, 165, 116);
     }
@@ -62,6 +72,9 @@ aside blockquote {
 
 
 /* Navigation Styles */	
+nav > ul {
+    line-height: 2em;
+}
 
 
 
