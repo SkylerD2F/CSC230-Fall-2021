@@ -65,8 +65,14 @@ section#rightColumn {
     width: 67%;
 }
 
+section#rightColumn {
+    display: block;
+    width: 100%;
+}
 
-
+section#rightColumn > nav.horizontalNavigation li {
+    width: 25%;
+}
 
 
 /* Footer Styles */
