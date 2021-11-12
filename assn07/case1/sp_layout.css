@@ -32,14 +32,28 @@ header,ul,nav,li,a {
 }
 
 /* Row Styles */
-
+header.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
 
 
 
 
 /* Page Header Styles */
+body>header>img {
+    display: block;
+    width: 70%;
+    float: left;
+}
 
-
+body>header>nav {
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 30%;
+}
 
 
 
