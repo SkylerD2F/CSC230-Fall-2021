@@ -16,11 +16,10 @@
 /* Grid Rows Styles */
 div {
     width: 100%;
-    display: table-row;
     clear: both;
 }
 
-div.container {
+div.row::after {
     content: "";
     display: table;
     clear: both;
@@ -28,57 +27,47 @@ div.container {
 
 
 /* Grid Columns Styles */
-div #column {
+div[class^="column"] {
     float: left;
 }
 
 div.column100 {
-    display: inline-block;
     width: 100%;
 }
 
 div.column50 {
-    display: inline-block;
     width: 50%;
 }
 
 div.column33 {
-    display: inline-block;
     width: 33%;
 }
 
 div.column67 {
-    display: inline-block;
     width: 67%;
 }
 
 div.column25 {
-    display: inline-block;
     width: 25%;
 }
 
 div.column75 {
-    display: inline-block;
     width: 75%;
 }
 
 div.column20 {
-    display: inline-block;
     width: 20%;
 }
 
 div.column40 {
-    display: inline-block;
     width: 40%;
 }
 
 div.column60 {
-    display: inline-block;
     width: 60%;
 }
 
 div.column80 {
-    display: inline-block;
     width: 80%;
 }
 /* Grid Spacing Styles */
