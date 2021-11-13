@@ -13,12 +13,46 @@
 
 
 /* Window and Body Styles */
+html {
+    background-color: rgb(101, 101, 101);
+}
 
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    min-width: 320px;
+    max-width: 960px;
+}
 
+img {
+    display: block;
+    width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
 
 /* Body Header Styles */
+body header {
+    background-color: rgb(191, 68, 70);
+    height: 40px;
+}
 
-
+ nav>ul>li>a {
+display: block;
+float: left;
+margin-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 0px;
+padding-right: 0px;
+}
 
 /* DIV Container Styles */
 
