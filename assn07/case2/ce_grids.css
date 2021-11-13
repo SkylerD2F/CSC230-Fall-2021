@@ -14,16 +14,8 @@
 
 
 /* Grid Rows Styles */
-div {
-    width: 100%;
-    clear: both;
-}
-
-div.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+div.row {width: 100%; clear: both;}
+div.row {display: block; float: left;}
 
 
 /* Grid Columns Styles */
@@ -71,12 +63,6 @@ div.column80 {
     width: 80%;
 }
 /* Grid Spacing Styles */
-div.cell div.container,
-div.cell div.row,
-div.cell div[class^="column"],
-div.cell div[class^="cell"],
-div.cell a {
+container, row, .column, .cell, div.a, div.cell
 
-  box-sizing: border-box;
-
-}
+{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
