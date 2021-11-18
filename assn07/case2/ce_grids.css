@@ -15,7 +15,11 @@
 
 /* Grid Rows Styles */
 div.row {width: 100%; clear: both;}
-div.row {display: block; float: left;}
+div.row::after{/* changed it up please check it*/
+   clear: both;   
+   content: "";
+   display: table;
+}
 
 
 /* Grid Columns Styles */
@@ -32,11 +36,11 @@ div.column50 {
 }
 
 div.column33 {
-    width: 33%;
+    width: 33.33%;
 }
 
 div.column67 {
-    width: 67%;
+    width: 66.67%;
 }
 
 div.column25 {
@@ -63,6 +67,8 @@ div.column80 {
     width: 80%;
 }
 /* Grid Spacing Styles */
-container, row, .column, .cell, div.a, div.cell
+div.container, div.row, div[class^='column'], div.cell, div.cell a {/* reworked this one*/
 
-{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+ box-sizing: border-box; }
