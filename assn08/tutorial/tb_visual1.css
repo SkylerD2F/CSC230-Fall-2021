@@ -29,9 +29,11 @@ figure figcaption {
     font-style: italic;
     padding: 10px 0;
     text-align: center;
-
+}
 /* HTML Styles */
-
+html {
+    background-image: url(tb_back1.png);
+}
 
 
 
