@@ -6,23 +6,20 @@
    Case Problem 2
    
    Save your Fork Graphic Design Styles
-   Author: Brandon Collins
-   Date:   11/21/21
+   Author: 
+   Date:   
 
    Filename: sf_effects.css
 
 */
 
 /* Body Header Styles */
-body {
-    box-shadow: 10px 0px 50px rgb(51, 51, 51), -10px 0px 50px rgb(51, 51, 51)
-}
+
 
 
 /* Navigation Tabs List Styles */
-body > header > nav.tabs {
-    background: url(sf_back1.png) 100% 100% no-repeat;
-}
+
+
 
 
 /* Left Section Styles */
