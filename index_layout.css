@@ -10,7 +10,12 @@ filename: index_layout.css
 
 /* HTML 
 */
+
 html {
-    display: block;
-    color: rgb(rgb(12, 6, 6);
+    background-color: rgb(rgb(20, 12, 12), green, blue);
+}
+
+body {
+    background-color: rgb(rgb(78, 6, 6), green, blue);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
