@@ -25,14 +25,14 @@ body {
     margin-right: auto;
     min-height: 100%;
 }
-header,ul,nav,li,a {
+header, ul, nav, li, a {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 /* Row Styles */
-header.row::after {
+.row::after {/* removed header to clear up that space*/
     clear: both;
     content: "";
     display: table;
@@ -55,7 +55,7 @@ body>header>nav {
     width: 30%;
 }
 
-header>nav>a {
+body > header > nav a {/* added body and removed the > between nav and a*/
     display: block;
     width: 100%;
 }
@@ -74,7 +74,7 @@ nav.horizontal li {
 
 
 /* Topics Styles */
-#topics li{
+ul#topics li{ /*added ul*/
     display: block;
     width: 20%;
     float: left;
@@ -82,20 +82,20 @@ nav.horizontal li {
     margin-right: 1.5%;
 }
 
-#topics li:first-child {
+ul#topics li:first-of-type {/* added ul and changed to first of type*/
     margin-left: 7.75%;
 }
 
-#topics li:last-child {
+ul#topics li:last-of-type{/* added last of type*/
     margin-right: 7.75%;
 }
 
-#topics img {
+ul#topics li img {/*added ul and li */
     display: block;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-
+    /*margin-left: auto;
+    margin-right: auto;----removed and just added margin: 0 auto;  */
+    margin: 0 auto;
 }
 
 
@@ -110,30 +110,32 @@ hr {
 
 
 /* Customer Comment Styles */
-#comments {
+ul#comments {  /* added ul */
     width: 75%;
-    margin-top: 40px;
+    /*margin-top: 40px;
     margin-bottom: 40px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;---removed and added margin: 40px auto; */
+    margin: 40px auto;
 }
 
-#comments li {
+ul#comments li {
     display: block;
     width: 50%;
     float: left;
     margin-bottom: 30px;
 }
 
-#comments li img {
+ul#comments li img {
     display: block;
     width: 20%;
     float: left;
-    margin-left: 5%;
-    margin-right: 5%;
+    /*margin-left: 5%;
+    margin-right: 5%;----removed and added margin: 0 5%;  */
+    margin: 0 5%;
 }
 
-li p {
+ul#comments li p {/*added ul#comments */
     float: left;
     width: 70%;
 }

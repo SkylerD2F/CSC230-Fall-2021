@@ -20,57 +20,62 @@ html {
 body {
     background-color: white;
     font-family: Verdana, Geneva, Arial, sans-serif;
-    margin-top: 20px;
+    /*margin-top: 20px;
     margin-bottom: 20px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto;----just changed to margin: 20px auto; */
+    margin: 20px auto;
     width: 95%;
     min-width: 320px;
     max-width: 960px;
     position: relative;
 }
-
-body::after {
+nav a {/* added this*/
+    text-decoration: none;
+ }
+/*body::after {
     clear: both; content: ""; display: table;
-}
+}----removed this*/
 
 img {
     display: block;
     width: 100%;
 }
 
-a:link, a:visited, a:hover, a:active {
+/*a:link, a:visited, a:hover, a:active {
     text-decoration: none;
-}
+}----removed this*/
 
 /* Body Header Styles */
  body > header {
-    background-color: rgb(191, 68, 70);
+    background-color: rgb(191, 168, 170);
     height: 40px;
 }
 
  body > header > nav > ul > li {
-list-style: none;
+/*list-style: none;--removed*/
 display: block;
 float: left;
 margin-right: 20px;
-padding-top: 10px;
+/*padding-top: 10px;
 padding-bottom: 10px;
 padding-left: 0px;
-padding-right: 0px;
+padding-right: 0px;----changed to padding: 10px 0px;*/
+padding: 10px 0px;
 }
 
-body > header > nav > ul > li a:link, body > header > nav > ul > li > a:visited { 
+body > header > nav a:visited, body > header > nav a:link { /* see changes*/
     color: rgb(51, 51, 51);
+    font-size: 0.9em;
 }
 
-body > header > nav > ul > li a:hover, body > header > nav > ul > li a:active {
+body > header > nav a:hover, body > header > nav a:active {/*see changes*/
      color: rgb(255, 211, 211);
     }
 
-body > header > nav > ul > li {
-        font-size: 0.9em;
-    }
+/*body > header > nav > ul > li {
+        font-size: 0.9em;---already done above  
+    }*/
 /* DIV Container Styles */
 div#container {
     padding-right: 8px;
