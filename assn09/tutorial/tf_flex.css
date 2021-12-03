@@ -58,8 +58,15 @@ section#topics article {
 */
 
 @media only screen and (max-width: 480px) {
-  
+aside {
+    -webkit-order: 99;
+    order: 99;
+}
 
+footer {
+    -webkit-order: 100;
+    order: 100;
+}
  
 }
 
@@ -73,7 +80,7 @@ nav.horizontal ul {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row nowrap;
-    flex-flow: row nowrap:
+    flex-flow: row nowrap;
 }
 
 nav.horizontal li {
