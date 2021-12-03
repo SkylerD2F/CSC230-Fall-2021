@@ -144,7 +144,9 @@ body > footer {
 }
 
 /* Pulldown Menu Styles */
-
+ul.submenu {
+    display: none;
+}
 
 
 
@@ -169,6 +171,6 @@ Desktop Styles: 769px and greater
 =================================
 */
 @media only screen and (min-width: 769px) {
-    
+
 }
 
