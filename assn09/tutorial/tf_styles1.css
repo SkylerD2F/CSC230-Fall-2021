@@ -208,5 +208,16 @@ Desktop Styles: 769px and greater
     nav.horizontal a.submenuTitle {
         display: none;
     }
+
+    article {
+        float: left;
+        margin-right: 5%;
+        width: 55%;
+    }
+
+    aside {
+        float: left;
+        width: 40%;
+    }
 }
 
