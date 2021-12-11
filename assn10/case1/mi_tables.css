@@ -51,6 +51,10 @@ th :first-of-type {
     font-size: 2em;
 }
 
+th :not(.first-of-type) {
+    background-color: transparent;
+    color: black;
+}
 
 
 
