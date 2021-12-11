@@ -36,7 +36,9 @@ td {
     text-align: top;
 }
 /* Column Styles */
-
+#firstCol {
+    column-width: 24%;
+}
 
 
 /* Table Header Styles */
