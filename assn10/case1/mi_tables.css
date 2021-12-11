@@ -14,7 +14,7 @@
 */
 
 /* Table Styles */
-#pricing {
+table {
     background-image:linear-gradient(to bottom, rgb(190,215,255), black);
     border: 5px solid gray;
     
