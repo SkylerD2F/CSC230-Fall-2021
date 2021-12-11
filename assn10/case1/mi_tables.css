@@ -14,9 +14,27 @@
 */
 
 /* Table Styles */
+table {
+    background-image:linear-gradient(to bottom, rgb(190,215,255), black);
+    border: 5px solid gray;
+    
+}
+th td {
+    border: 3px solid gray;
+    line-height: 1.4em;
+    padding: 8px;
+}
+th {
+    background-color: black;
+    color: rgb(130, 210, 255);
+    font-weight: normal;
+}
 
-
-
+td {
+    color: white;
+    font-size: 0.9em;
+    text-align: top;
+}
 /* Column Styles */
 
 
