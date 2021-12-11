@@ -36,10 +36,12 @@ td {
     text-align: top;
 }
 /* Column Styles */
-#firstCol {
+col #firstCol {
     column-width: 24%;
 }
-
+.dataCols {
+    column-width: 19%;
+}
 
 /* Table Header Styles */
 
