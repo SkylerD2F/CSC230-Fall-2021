@@ -36,16 +36,20 @@ td {
     text-align: top;
 }
 /* Column Styles */
-col#firstCol {
+#firstCol {
     column-width: 24%;
 }
-col.dataCols {
+.dataCols {
     column-width: 19%;
 }
 
 /* Table Header Styles */
-
-
+thead tr {
+    height: 60px;
+}
+th :first-of-type {
+    font-size: 2em;
+}
 
 
 
