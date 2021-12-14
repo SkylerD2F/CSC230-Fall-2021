@@ -44,7 +44,9 @@ a:hover {
 
 nav {
     display: block;
-    width: 300px;
+    width: 25%;
+    margin: 0px;
+    padding: 0px;
     text-align: left;
     background-color: rgb(247, 203, 8);
 }
