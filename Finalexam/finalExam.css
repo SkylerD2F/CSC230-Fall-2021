@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*
+Index page css
+Name: Brandon Collins
+Date: 11/21/21
+filename: finalExam.css
+*/
+
+
+/* HTML 
+*/
+
+html {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+body {
+    background-color: rgb(75, 4, 4);
+    margin: 0px auto;
+    width: 70%;
+}
+
+body{
+    display: block;
+    text-align: center;
+   }
+
+a {
+    display: inline-block;
+    color: seashell;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+   
+}
+a:hover {
+    color: rgb(219, 243, 8);
+}
