@@ -105,6 +105,7 @@ h4 {
 section{
     display: inline-block;
     color: rgb(252, 202, 40);
+    padding: 15px;
 }
 
 
@@ -128,6 +129,8 @@ th {
 }
 
 td{
+    text-align: left;
+    vertical-align: top;
     color: rgb(250, 246, 246);
 }
 img {
@@ -136,4 +139,8 @@ img {
     height: 200px;
     width: 200px;
     object-fit: contain;
+}
+
+footer {
+    background-color: burlywood;
 }
